@@ -5,7 +5,7 @@ import numpy as np
 import gc
 
 pipeline = Pipeline.from_pretrained(
-    "pyannote/speaker-diarization", use_auth_token="register to huggingface website to get the access token")
+    "pyannote/speaker-diarization", use_auth_token="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")
 
 
 def read(k):
